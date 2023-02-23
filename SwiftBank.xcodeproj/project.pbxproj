@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DC2930200D50EB7AA1C9805 /* Pods_SwiftBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA47EAE3C6725E81FE826A96 /* Pods_SwiftBankTests.framework */; };
+		AA0FBE26B8F7881F1680DEE6 /* Pods_SwiftBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8645EAFECE950126A10C1E /* Pods_SwiftBank.framework */; };
+		D02E069D29A6984A005BD46D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E069C29A6984A005BD46D /* ProfileVC.swift */; };
+		D02E069F29A69872005BD46D /* SendMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E069E29A69872005BD46D /* SendMoneyVC.swift */; };
+		D05588E529A6AB3A0005B172 /* SendOrRequestMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05588E429A6AB3A0005B172 /* SendOrRequestMoneyVC.swift */; };
+		D05588E729A7ADE80005B172 /* AppUsersFromContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05588E629A7ADE80005B172 /* AppUsersFromContacts.swift */; };
+		D05588E929A7D81D0005B172 /* DisableableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05588E829A7D81D0005B172 /* DisableableButton.swift */; };
 		D0911DF329A66FA20084C340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0911DF229A66FA20084C340 /* AppDelegate.swift */; };
 		D0911DF529A66FA20084C340 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0911DF429A66FA20084C340 /* SceneDelegate.swift */; };
-		D0911DF729A66FA20084C340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0911DF629A66FA20084C340 /* ViewController.swift */; };
-		D0911DFA29A66FA20084C340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0911DF829A66FA20084C340 /* Main.storyboard */; };
 		D0911DFD29A66FA20084C340 /* SwiftBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0911DFB29A66FA20084C340 /* SwiftBank.xcdatamodeld */; };
 		D0911DFF29A66FA50084C340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0911DFE29A66FA50084C340 /* Assets.xcassets */; };
-		D0911E0229A66FA50084C340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0911E0029A66FA50084C340 /* LaunchScreen.storyboard */; };
 		D0911E0D29A66FA50084C340 /* SwiftBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0911E0C29A66FA50084C340 /* SwiftBankTests.swift */; };
 		D0911E1729A66FA50084C340 /* SwiftBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0911E1629A66FA50084C340 /* SwiftBankUITests.swift */; };
 		D0911E1929A66FA50084C340 /* SwiftBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0911E1829A66FA50084C340 /* SwiftBankUITestsLaunchTests.swift */; };
+		D0B12DA329A674AA0059F749 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0B12DA229A674AA0059F749 /* GoogleService-Info.plist */; };
+		D0BD56DA29A6791A00012A1A /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD56D929A6791A00012A1A /* SignInVC.swift */; };
+		D0BD56DC29A67A1600012A1A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD56DB29A67A1600012A1A /* MainVC.swift */; };
+		D0BD56DE29A67AAE00012A1A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD56DD29A67AAE00012A1A /* Extensions.swift */; };
+		DADD1032DAAD4DDE703F7C54 /* Pods_SwiftBank_SwiftBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38432141C0C3B2FBA945B54 /* Pods_SwiftBank_SwiftBankUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +46,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE7C74BBF52B65C6768170D /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
+		6B72A816CBE12A26E73AFCD3 /* Pods-SwiftBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.debug.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.debug.xcconfig"; sourceTree = "<group>"; };
+		71A6B160F00CCCA1BDB0CB37 /* Pods-SwiftBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBankTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftBankTests/Pods-SwiftBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		7543F2BE1B200B288FA171EC /* Pods-SwiftBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBankTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftBankTests/Pods-SwiftBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A41153137E9D508F07EACDC5 /* Pods-SwiftBank-SwiftBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank-SwiftBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftBank-SwiftBankUITests/Pods-SwiftBank-SwiftBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B38432141C0C3B2FBA945B54 /* Pods_SwiftBank_SwiftBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBank_SwiftBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BD99D36FC1BE63AE30FA20 /* Pods-SwiftBank-SwiftBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank-SwiftBankUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank-SwiftBankUITests/Pods-SwiftBank-SwiftBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D02E069C29A6984A005BD46D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D02E069E29A69872005BD46D /* SendMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyVC.swift; sourceTree = "<group>"; };
+		D05588E429A6AB3A0005B172 /* SendOrRequestMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendOrRequestMoneyVC.swift; sourceTree = "<group>"; };
+		D05588E629A7ADE80005B172 /* AppUsersFromContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsersFromContacts.swift; sourceTree = "<group>"; };
+		D05588E829A7D81D0005B172 /* DisableableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableableButton.swift; sourceTree = "<group>"; };
 		D0911DEF29A66FA20084C340 /* SwiftBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0911DF229A66FA20084C340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0911DF429A66FA20084C340 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0911DF629A66FA20084C340 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0911DF929A66FA20084C340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0911DFC29A66FA20084C340 /* SwiftBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftBank.xcdatamodel; sourceTree = "<group>"; };
 		D0911DFE29A66FA50084C340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0911E0129A66FA50084C340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0911E0329A66FA50084C340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0911E0829A66FA50084C340 /* SwiftBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0911E0C29A66FA50084C340 /* SwiftBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBankTests.swift; sourceTree = "<group>"; };
 		D0911E1229A66FA50084C340 /* SwiftBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0911E1629A66FA50084C340 /* SwiftBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBankUITests.swift; sourceTree = "<group>"; };
 		D0911E1829A66FA50084C340 /* SwiftBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0B12DA229A674AA0059F749 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0BD56D929A6791A00012A1A /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		D0BD56DB29A67A1600012A1A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D0BD56DD29A67AAE00012A1A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DE8645EAFECE950126A10C1E /* Pods_SwiftBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA47EAE3C6725E81FE826A96 /* Pods_SwiftBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0FBE26B8F7881F1680DEE6 /* Pods_SwiftBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC2930200D50EB7AA1C9805 /* Pods_SwiftBankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADD1032DAAD4DDE703F7C54 /* Pods_SwiftBank_SwiftBankUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72AAEC129EA0441AF54DF16B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B72A816CBE12A26E73AFCD3 /* Pods-SwiftBank.debug.xcconfig */,
+				1AE7C74BBF52B65C6768170D /* Pods-SwiftBank.release.xcconfig */,
+				A41153137E9D508F07EACDC5 /* Pods-SwiftBank-SwiftBankUITests.debug.xcconfig */,
+				B5BD99D36FC1BE63AE30FA20 /* Pods-SwiftBank-SwiftBankUITests.release.xcconfig */,
+				7543F2BE1B200B288FA171EC /* Pods-SwiftBankTests.debug.xcconfig */,
+				71A6B160F00CCCA1BDB0CB37 /* Pods-SwiftBankTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D0911DE629A66FA20084C340 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				D0911E0B29A66FA50084C340 /* SwiftBankTests */,
 				D0911E1529A66FA50084C340 /* SwiftBankUITests */,
 				D0911DF029A66FA20084C340 /* Products */,
+				72AAEC129EA0441AF54DF16B /* Pods */,
+				E09FAEFE7338D2525054E085 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +145,18 @@
 			children = (
 				D0911DF229A66FA20084C340 /* AppDelegate.swift */,
 				D0911DF429A66FA20084C340 /* SceneDelegate.swift */,
-				D0911DF629A66FA20084C340 /* ViewController.swift */,
-				D0911DF829A66FA20084C340 /* Main.storyboard */,
+				D0B12DA229A674AA0059F749 /* GoogleService-Info.plist */,
 				D0911DFE29A66FA50084C340 /* Assets.xcassets */,
-				D0911E0029A66FA50084C340 /* LaunchScreen.storyboard */,
 				D0911E0329A66FA50084C340 /* Info.plist */,
 				D0911DFB29A66FA20084C340 /* SwiftBank.xcdatamodeld */,
+				D0BD56D929A6791A00012A1A /* SignInVC.swift */,
+				D0BD56DB29A67A1600012A1A /* MainVC.swift */,
+				D0BD56DD29A67AAE00012A1A /* Extensions.swift */,
+				D02E069C29A6984A005BD46D /* ProfileVC.swift */,
+				D02E069E29A69872005BD46D /* SendMoneyVC.swift */,
+				D05588E429A6AB3A0005B172 /* SendOrRequestMoneyVC.swift */,
+				D05588E629A7ADE80005B172 /* AppUsersFromContacts.swift */,
+				D05588E829A7D81D0005B172 /* DisableableButton.swift */,
 			);
 			path = SwiftBank;
 			sourceTree = "<group>";
@@ -130,6 +178,16 @@
 			path = SwiftBankUITests;
 			sourceTree = "<group>";
 		};
+		E09FAEFE7338D2525054E085 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8645EAFECE950126A10C1E /* Pods_SwiftBank.framework */,
+				B38432141C0C3B2FBA945B54 /* Pods_SwiftBank_SwiftBankUITests.framework */,
+				FA47EAE3C6725E81FE826A96 /* Pods_SwiftBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0911E1C29A66FA50084C340 /* Build configuration list for PBXNativeTarget "SwiftBank" */;
 			buildPhases = (
+				1B4FF1C315B1054B03C856F6 /* [CP] Check Pods Manifest.lock */,
 				D0911DEB29A66FA20084C340 /* Sources */,
 				D0911DEC29A66FA20084C340 /* Frameworks */,
 				D0911DED29A66FA20084C340 /* Resources */,
+				B9EAFA506C77A869F072B92D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0911E1F29A66FA50084C340 /* Build configuration list for PBXNativeTarget "SwiftBankTests" */;
 			buildPhases = (
+				EF7205547C56F71B4576062D /* [CP] Check Pods Manifest.lock */,
 				D0911E0429A66FA50084C340 /* Sources */,
 				D0911E0529A66FA50084C340 /* Frameworks */,
 				D0911E0629A66FA50084C340 /* Resources */,
@@ -172,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0911E2229A66FA50084C340 /* Build configuration list for PBXNativeTarget "SwiftBankUITests" */;
 			buildPhases = (
+				89710220666AED606D56E65B /* [CP] Check Pods Manifest.lock */,
 				D0911E0E29A66FA50084C340 /* Sources */,
 				D0911E0F29A66FA50084C340 /* Frameworks */,
 				D0911E1029A66FA50084C340 /* Resources */,
+				904F1F4C8B0A07F9206CF28A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0911E0229A66FA50084C340 /* LaunchScreen.storyboard in Resources */,
 				D0911DFF29A66FA50084C340 /* Assets.xcassets in Resources */,
-				D0911DFA29A66FA20084C340 /* Main.storyboard in Resources */,
+				D0B12DA329A674AA0059F749 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +318,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B4FF1C315B1054B03C856F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89710220666AED606D56E65B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBank-SwiftBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904F1F4C8B0A07F9206CF28A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftBank-SwiftBankUITests/Pods-SwiftBank-SwiftBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftBank-SwiftBankUITests/Pods-SwiftBank-SwiftBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftBank-SwiftBankUITests/Pods-SwiftBank-SwiftBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EAFA506C77A869F072B92D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftBank/Pods-SwiftBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftBank/Pods-SwiftBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftBank/Pods-SwiftBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7205547C56F71B4576062D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0911DEB29A66FA20084C340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0911DF729A66FA20084C340 /* ViewController.swift in Sources */,
+				D0BD56DC29A67A1600012A1A /* MainVC.swift in Sources */,
+				D05588E529A6AB3A0005B172 /* SendOrRequestMoneyVC.swift in Sources */,
 				D0911DF329A66FA20084C340 /* AppDelegate.swift in Sources */,
+				D02E069D29A6984A005BD46D /* ProfileVC.swift in Sources */,
 				D0911DF529A66FA20084C340 /* SceneDelegate.swift in Sources */,
 				D0911DFD29A66FA20084C340 /* SwiftBank.xcdatamodeld in Sources */,
+				D0BD56DA29A6791A00012A1A /* SignInVC.swift in Sources */,
+				D05588E729A7ADE80005B172 /* AppUsersFromContacts.swift in Sources */,
+				D0BD56DE29A67AAE00012A1A /* Extensions.swift in Sources */,
+				D02E069F29A69872005BD46D /* SendMoneyVC.swift in Sources */,
+				D05588E929A7D81D0005B172 /* DisableableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,25 +471,6 @@
 			targetProxy = D0911E1329A66FA50084C340 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0911DF829A66FA20084C340 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0911DF929A66FA20084C340 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0911E0029A66FA50084C340 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0911E0129A66FA50084C340 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0911E1A29A66FA50084C340 /* Debug */ = {
@@ -436,6 +589,7 @@
 		};
 		D0911E1D29A66FA50084C340 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B72A816CBE12A26E73AFCD3 /* Pods-SwiftBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,24 +600,27 @@
 				INFOPLIST_FILE = SwiftBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akmobilesoftware.SwitMobileBankApp.SwiftBank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D0911E1E29A66FA50084C340 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE7C74BBF52B65C6768170D /* Pods-SwiftBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,24 +631,27 @@
 				INFOPLIST_FILE = SwiftBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akmobilesoftware.SwitMobileBankApp.SwiftBank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		D0911E2029A66FA50084C340 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7543F2BE1B200B288FA171EC /* Pods-SwiftBankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		D0911E2129A66FA50084C340 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A6B160F00CCCA1BDB0CB37 /* Pods-SwiftBankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +693,7 @@
 		};
 		D0911E2329A66FA50084C340 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41153137E9D508F07EACDC5 /* Pods-SwiftBank-SwiftBankUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +712,7 @@
 		};
 		D0911E2429A66FA50084C340 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BD99D36FC1BE63AE30FA20 /* Pods-SwiftBank-SwiftBankUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
